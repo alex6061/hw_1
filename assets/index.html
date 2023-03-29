@@ -31,14 +31,14 @@
                     <div class="header__lang"></div>
                     <!-- ==header__theme== -->
                     <div class="header__theme">
-                        <label>Change Webpage Background To:</label>
-                        <button type="button" onclick="changeBodyBg('white')">
+                        <!-- <label>Change Webpage Background To:</label> -->
+                        <button type="button" class="click"  onclick="changeBodyBg('white')">
                             <svg class="header__sun">
-                                <use href="./assets/img/brands/symbol-defs.svg#icon-sun"></use> 
+                                <use href="./assets/img/brands/symbol-defs.svg#icon-sun('#FFFFFF')"></use> 
                              </svg>
                         </button>
                         <button>
-                            <svg class="header__moon" type="button" onclick="changeBodyBg('black')">
+                            <svg class="header__moon" class="click" type="button" onclick="changeBodyBg('#484848')">
                                 <use href="./assets/img/brands/symbol-defs.svg#icon-moon"></use> 
                             </svg>
                         </button>
@@ -314,5 +314,6 @@
     
 
     <script src="js.js"></script>
+  
 </body>
 </html>

@@ -124,6 +124,40 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0;
 }
 
+body {
+  background-color: #484848;
+}
+
+.header__link,
+.download__title,
+.header__link,
+.header__item,
+.text,
+.title {
+  color: #ffffff;
+}
+
+svg {
+  fill: #ffffff;
+}
+
+body {
+  background-color: #ffffff;
+}
+
+.header__link,
+.download__title,
+.header__link,
+.header__item,
+.text,
+.title {
+  color: #000000;
+}
+
+svg {
+  fill: #000000;
+}
+
 .container {
   margin: 0 auto;
   padding: 0 15px;
